@@ -56,7 +56,7 @@ const questions = [
         type: "list",
         message: colors.magenta("What kind of license do you want to use ?"),
         name: "license",
-        choices: ["none", "MIT LICENSE", "Apache 2.0 License", "GPLv3", "LGPLv2.1", "BSD 3-Clause “New” or “Revised” License"],
+        choices: ["none", "MIT LICENSE", "Apache 2.0 License", "Boost Software License 1.0", "BSD 3-Clause License", "BSD 2-Clause License"],
     },
     {
         type: 'input',
@@ -75,7 +75,7 @@ function writeToFile(fileName, data) {
 
      const content=generateMarkdown(data);
     
-    // fs.writeToFile(fileName,content,(err)=>err?console.log(err):console.log("success"))
+     fs.writeToFile(fileName,content,(err)=>err?console.log(err):console.log("success"))
  }
 
 // TODO: Create a function to initialize app
