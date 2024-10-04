@@ -82,8 +82,6 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) =>
-            // console.log("data",data)
-
             writeToFile("./file/README.md", data)
         );
 }
