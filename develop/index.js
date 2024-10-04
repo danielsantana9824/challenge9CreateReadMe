@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const colors = require("colors");
-const marker = require("./utils/generateMarkdown");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -73,10 +72,10 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 
-     const content=generateMarkdown(data);
-    
-     fs.writeToFile(fileName,content,(err)=>err?console.log(err):console.log("success"))
- }
+    const content = generateMarkdown(data);
+
+    fs.writeFile(fileName, content, (err) => err ? console.log(err) : console.log("success"))
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -84,8 +83,8 @@ function init() {
         .prompt(questions)
         .then((data) =>
             // console.log("data",data)
-            
-             writeToFile(data.title,data)
+
+            writeToFile("./output/README.md", data)
         );
 }
 
