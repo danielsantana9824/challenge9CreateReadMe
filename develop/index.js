@@ -74,7 +74,7 @@ function writeToFile(fileName, data) {
 
     const content = generateMarkdown(data);
 
-    fs.writeFile(fileName, content, (err) => err ? console.log(err) : console.log("success"))
+    fs.writeFile(fileName, content, (err) => err ? console.log(err) : console.log("success"));
 }
 
 // TODO: Create a function to initialize app
@@ -84,7 +84,7 @@ function init() {
         .then((data) =>
             // console.log("data",data)
 
-            writeToFile("./output/README.md", data)
+            writeToFile("./file/README.md", data)
         );
 }
 
