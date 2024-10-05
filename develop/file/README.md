@@ -1,11 +1,11 @@
 
-  # Title: The Goat
+  # Title: My First Demo
 
-## Name of Project: Messi.
+## Name of Project: Leo Messi.
 
 ## Description
 
-This project is a system that automates the creation of professional README files from various inputs, streamlining the process and reducing the time needed to write README files manually.
+Create my First Demo
 
 ## Table of Contents (Optional)
 
@@ -18,11 +18,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-To use this program, follow these steps:
+npm i
 
 ## Usage
 
-Clone the repository to your local machine.
+google
 
 ## Credits
 
@@ -34,25 +34,25 @@ If you followed tutorials, include links to those here as well.
 
 ## Command to run
 
-to run the system, you need to use: npm test
+to run the system, you need to use: node index.js
 
 ## License
 
-MIT LICENSE
+Boost Software License 1.0
 
 
 ## How to Contribute
 
-dddddddddddd
+i created whole project
 
 
 ## Tests
 
-ddddddddddddddddddddddddd
+everything
 
 ## Contact
 
-This is my user name from gitHub: danielrs.
+This is my user name from gitHub: danielrs23.
 
-This is my email: daniels
+This is my email: danielrs23
 

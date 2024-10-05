@@ -24,6 +24,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Credits](#credits)
 - [License](#license)
 
+## repo and video
+video: https://app.screencastify.com/v3/watch/2lGjLQuNNooA2exQzn7q
+
+code: https://github.com/danielsantana9824/challenge9ReadMe
+
 
 
 ## Installation
