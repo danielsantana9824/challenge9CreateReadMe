@@ -1,11 +1,11 @@
 
-  # Title: the goat
+  # Title: The Goat
 
-## Name of Project: The best of History.
+## Name of Project: Messi.
 
 ## Description
 
-leo messi
+This project is a system that automates the creation of professional README files from various inputs, streamlining the process and reducing the time needed to write README files manually.
 
 ## Table of Contents (Optional)
 
@@ -18,11 +18,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-i don't know
+To use this program, follow these steps:
 
 ## Usage
 
-n/a
+Clone the repository to your local machine.
 
 ## Credits
 
@@ -34,25 +34,25 @@ If you followed tutorials, include links to those here as well.
 
 ## Command to run
 
-to run the system, you need to use: npm i
+to run the system, you need to use: npm test
 
 ## License
 
-BSD 3-Clause License
+MIT LICENSE
 
 
 ## How to Contribute
 
-n/A
+dddddddddddd
 
 
 ## Tests
 
-n/a
+ddddddddddddddddddddddddd
 
 ## Contact
 
-This is my user name from gitHub: daniel.
+This is my user name from gitHub: danielrs.
 
-This is my email: messsi@hotm,ail.com
+This is my email: daniels
 
